@@ -10,7 +10,7 @@
 
 <body>
     <h1>Enter a Year to Display the Calendar</h1>
-    <form method="POST" action="./php/calendar.php">
+    <form method="POST" action="calendar.php">
         <label for="year">Year:</label>
         <input type="number" id="year" name="year" required>
         <button type="submit">Show Calendar</button>
